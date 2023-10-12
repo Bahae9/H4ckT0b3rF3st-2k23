@@ -3,6 +3,8 @@ import json
 
 import pygame as pg
 
+FPS = 60
+
 with open("config.json") as file:
     config = json.load(file)
 BACKGROUND_COLOR = pg.Color(config["background_color"])
