@@ -3,7 +3,6 @@ import json
 import random
 import pygame as pg
 
-FPS = 60
 
 with open("config.json") as file:
     config = json.load(file)
